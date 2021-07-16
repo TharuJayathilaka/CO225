@@ -1,3 +1,3 @@
 # CO225
-Software Construction
-All the labs and answers are in this resipotary
+Software Construction\n
+All the labs and answers are in this repositary
