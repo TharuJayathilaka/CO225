@@ -1,0 +1,24 @@
+
+Questions:
+
+ 
+1. Suppose the set currently have N number of elements and one wants to add another. How many comparison operations do you need? 
+
+   Entire aet will be compared. So N number of comparison operations are needed.
+
+2. To remove an element how many operations do you need to do? Does it change with the number of elements in the set? 
+
+   By copying rest to the front, automatically first element can be removed. But after that we have to make sure that last element is null. So N number of operations are needed.
+   Yes. It depends on.
+
+3. Suppose the items are kept sorted. Can you improve the performance of add? Explain. 
+
+   Yes, If items are sorted, when we want to add an element, we can check only the relevant part. It will reduce the time to be taken to add an element. We can use 'binary search' algorithm to this.
+
+4. Consider the two implementation options given for remove in the skeleton code. Which option is better? Why?. 
+
+   Option 1 is better. It has only one comparison but Option 2 has more than that.
+
+5. Can you use Java annotation to get rid of -Xlint flag? 
+
+   Yes, -Xlint warnings can be suppressed with java annotations.
