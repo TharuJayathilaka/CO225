@@ -1,0 +1,6 @@
+Bonus Question: should the average percentage attendance be 50%? Explain.
+
+The Math class provides a static method called random to generate random numbers which are UNIFORMLY distributed between a given range(a,b).
+Since random numbers are UNIFORMLY distributed between the given range, the average of random number should be equal to the half of the range((a+b)/2).
+That means when we take the average percentage of the attendance it should be equal to 50%.
+
